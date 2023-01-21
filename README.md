@@ -41,7 +41,7 @@ While it may have additional potential use cases, this is the main purpose of th
 - `false` if the data is falsy.
 
 ### Usage
-import { isTruthy } from 'path/to/isTruthy';
+import { isTruthy } from 'isTruthy';
 
 console.log(isTruthy(true)); // true  
 console.log(isTruthy(false)); // false   
@@ -49,7 +49,7 @@ console.log(isTruthy(false)); // false
 console.log(isTruthy(0)); // true  
 console.log(isTruthy(0, false)); // false
 
-Check the test script for detailed examples.
+Check the example test script (using Jest) for detailed examples.
 
 ## Notes
 
