@@ -1,5 +1,5 @@
 {
-  "name": "istruthy",
+  "name": "istruthy-js",
   "version": "1.3.0",
   "description": "A simple function to check if a piece of data is truthy. JavaScript version.",
   "main": "isTruthy.js",
