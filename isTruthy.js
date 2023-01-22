@@ -65,7 +65,6 @@ export const isTruthy = (data, zero, obj) => {
     }
 
     if (obj === true) {
-        console.log("Obj is true!");
         return Object.values(data).some(val => isTruthy(val, zero));
     }
 
