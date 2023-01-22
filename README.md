@@ -8,7 +8,9 @@ This function checks if the given data is truthy.
 By default: if an object, array, set, or map contains ANY truthy values, it is truthy.  
 By default: the value 0 is considered as truthy.
 
-Package at: https://www.npmjs.com/package/istruthy-js
+Package at: https://www.npmjs.com/package/istruthy-js  
+GitHub repo at: https://github.com/AroenvR/istruthy  
+(main branch contains as few files as possible, clone the working_tests branch if you want to experiment with it)
 
 
 ## Supports the following data types:
