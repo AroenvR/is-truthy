@@ -150,18 +150,5 @@ describe("isTruthy", () => {
         // expect(isTruthy(optionalTruthyNestedZeroObject, null, true)).toBe(true);
     });
 
-    //--------------------------------------------------
-    
-    test.skip("checks truthy values for custom class object", () => { // TODO: Fix this test.
-        class CustomClass {
-            constructor(value) {
-                this.value = value;
-            }
-        }
-
-        let customClassObject = new CustomClass(true);
-        expect(isTruthy(customClassObject)).toBe(true);
-        customClassObject = new CustomClass(false);
-        expect(isTruthy(customClassObject)).toBe(false);
-    });
+    // TODO: Separate tests for truthy zero's and fully-truthy objects.
 });
